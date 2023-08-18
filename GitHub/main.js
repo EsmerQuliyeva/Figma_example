@@ -1,0 +1,6 @@
+let number1=window.prompt("first number")
+let number2=window.prompt("second number")
+console.log("adding:", number1+number2)
+console.log("substraction:"+ (number1-number2))
+console.log("multiply:"+ number1*number2)
+console.log("divided:"+ number1/number2)

@@ -1,0 +1,215 @@
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+header img {
+    width: 200px;
+    height: 100px;
+    top: 56px;
+    left: 191px;
+
+
+}
+
+
+header #header_part h1 {
+    width: 427px;
+    height: 112px;
+    top: 283px;
+    left: 190px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 283px;
+
+
+}
+
+header #header_part p {
+    width: 445px;
+    height: 96px;
+    top: 420px;
+    left: 190px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7D7987;
+    margin-top: 25px;
+
+}
+
+header #header_part button {
+    width: 200px;
+    height: 50px;
+    top: 561px;
+    left: 230px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #007bff;
+    margin-top: 100px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+
+    /* Button-a padding verdikdə yazılarım aşağıya doğru sürüşür. Bunun səbəbini və yolunu tapa bilmədim */
+}
+
+header #header_part button:hover {
+    transform: scale(1.2);
+    transition: 3s;
+}
+
+header #second_part img {
+    width: 593px;
+    height: 398px;
+    flex-shrink: 0;
+    margin: 177px auto;
+}
+
+header #group {
+    width: 131.58103942871094px;
+    height: 114.99999237060547px;
+    top: 160px;
+    left: 0px;
+    opacity: 0.30000001192092896px;
+    position: absolute;
+    margin-top: 70px;
+}
+
+#first .title {
+    text-align: center;
+    margin-top: 195px;
+}
+
+#first .title h3 {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    /* 155.556% */
+}
+
+#first .title hr {
+    width: 56px;
+    height: 2px;
+    flex-shrink: 0;
+    margin: auto;
+    display: block;
+    border: 0;
+    border-top: 1px solid black;
+    padding: 0;
+    opacity: 0.5;
+    border-radius: 5px;
+    background: #000;
+    margin-bottom: 62px;
+}
+
+#first .title p {
+    color: #7D7987;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+
+.item .icon {
+    margin-right: 34px;
+    border-radius: 20px;
+    background: #FFF;
+    position: relative;
+
+    /* drop shadow */
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+
+}
+
+.item .icon img {
+    width: 91.978px;
+    height: 90px;
+    flex-shrink: 0;
+}
+
+.item .icon h3 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    /* 233.333% */
+    margin-top: 22px;
+}
+
+.item .icon p {
+    color: #7D7987;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    /* 175% */
+
+}
+
+#first button {
+    width: 200px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    background-color: white;
+    text-align: center;
+    margin: 30px auto;
+    color: #458FF6;
+
+}
+
+.vector {
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    left: 5px;
+    z-index: -1;
+    color: linear-gradient(175.68deg, #F3F7FF -10.48%, #DEEEFE 92.66%);
+    ;
+
+}
+
+.last_element {
+    width: 131.581px;
+    height: 115px;
+    flex-shrink: 0;
+    position: relative;
+    right: 0px;
+    bottom: 335px;
+    z-index: -1;
+}
+
+.slider_item {
+    /* width: 1320px;
+    height: 525px;
+    flex-shrink: 0; */
+    border-radius: 24px;
+    padding: 64 100px;
+    display: flex;
+    background: linear-gradient(223deg, #67C3F3 0%, #5A98F2 100%);
+
+}
+
+/* .slider_item img {
+    width: 133px;
+    height: 133px;
+    flex-shrink: 0;
+} */
